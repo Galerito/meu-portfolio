@@ -548,15 +548,28 @@ footer .email-contato a:hover {
     transform: scale(1.05);
 }
 
+/* AJUSTE DENTRO DO @media screen (max-width: 1020px) */
+
 @media screen and (max-width: 1020px) {
-  
-  /*classes gerais*/
-    .flex{
-        flex-direction: column-reverse;
-        text-align: center;
-        gap: 30px;
+    /* ... seus outros códigos ... */
+
+    section.projetos {
+        padding: 40px 4%;
     }
-  
+
+    .box-projetos {
+        flex-direction: column; /* Faz os cards ficarem um embaixo do outro no celular */
+        align-items: center;    /* Centraliza os cards */
+        gap: 30px;
+        padding: 0;
+    }
+
+    .projeto-card {
+        width: 100%;           /* Faz o card ocupar a largura disponível */
+        max-width: 400px;      /* Mas mantém um limite para não ficar gigante */
+        font-size: 1rem;
+    }
+}
   
   
   
