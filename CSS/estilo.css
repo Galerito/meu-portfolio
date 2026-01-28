@@ -222,26 +222,36 @@ section.especialidades {
     gap: 30px;
     justify-content: center;
     margin-top: 40px;
-    flex-wrap: wrap; /* Permite quebrar linha apenas se não couber */
+    flex-wrap: wrap; /* Garante que os cards quebrem linha se necessário */
 }
 
 .especialidade {
-    background-color: #111; /* Fundo levemente mais claro que o preto total */
+    background-color: #111; 
     border: 1px solid #333;
     border-radius: 15px;
     padding: 40px 20px;
     text-align: center;
     transition: 0.3s;
-    flex: 1; 
+    flex: 1;  
     max-width: 350px;
-    min-width: 280px; /* Garante que não fiquem muito finas */
+    min-width: 280px; /* Mantém largura mínima no desktop */
 }
-
-
 
 .especialidade img {
     width: 150px;
     margin-bottom: 15px;
+}
+
+.especialidade h3 {
+    color: #fff; /* Título bem visível */
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.especialidade p {
+    color: #f0f0f0; /* Escrita clara e visível */
+    font-size: 1rem;
+    line-height: 1.5;
 }
 
 .especialidade:hover {
@@ -249,44 +259,76 @@ section.especialidades {
     border: 2px solid #8e44ad;
 }
 
-/*SOBRE (Seus botões de redes sociais)*/
-section.sobre {
-    padding: 60px 4%;
-    color: #fff;
+/* PARTE DOS PROJETOS */
+section.projetos {
+    padding: 80px 4%;
 }
 
-.sobre .txt-sobre h2 span {
+.box-projetos {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.projeto-card {
+    background-color: #111;
+    padding: 40px 20px;
+    border-radius: 20px;
+    border: 1px solid #333;
+    text-align: center;
+    position: relative;
+    flex: 1;
+    max-width: 350px;
+    min-width: 280px;
+    transition: .5s;
+}
+
+.projeto-card h3 {
+    color: #fff; /* Título branco */
+    margin-bottom: 15px;
+}
+
+.projeto-card p {
+    color: #f0f0f0; /* Escrita branca/clara muito mais visível */
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Ajuste do link "Ver no GitHub" */
+.projeto-card a {
+    color: #cb47ffe1 !important;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.projeto-card:hover {
+    border-color: blueviolet;
+    background-image: linear-gradient(to bottom, #111, #1c0a25);
+    transform: translateY(-10px);
+}
+
+.projeto-card i {
+    font-size: 50px;
     color: blueviolet;
     display: block;
+    margin-bottom: 15px;
+    text-shadow: 0 0 10px rgba(138, 43, 226, 0.5);
 }
 
-.sobre .txt-sobre p {
-    font-size: 1.1rem;
-    line-height: 1.6;
-    margin-top: 20px;
-    text-align: justify;
-}
-
-.sobre .btn-social button {
-    background-color: #8e44ad;
-    color: #fff;
-    border: 0;
-    padding: 12px 25px;
-    font-size: 18px;
-    font-weight: 600;
-    border-radius: 50px;
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-    margin: 20px 15px 0 0;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(142, 68, 173, 0.3);
-}
-
-.sobre .btn-social button:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 25px rgba(142, 68, 173, 0.6);
+.projeto-card .badge {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #cb47ffe1;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 5px 12px;
+    border-radius: 20px;
+    text-transform: uppercase;
 }
 
 /* PARTE DOS PROJETOS COM MAIS VIDA */
