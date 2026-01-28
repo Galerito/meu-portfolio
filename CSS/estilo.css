@@ -329,11 +329,68 @@ footer .line-footer {
 }
 
 /* --- AJUSTE CELULAR --- */
+/* --- RECONSTRUÇÃO DA RESPONSIVIDADE (MOBILE) --- */
 @media screen and (max-width: 1020px) {
-    footer a[href^="mailto"] {
-        font-size: 18px !important;
+    /* Ajuste do Cabeçalho */
+    header .menu-desktop, header .btn-contato {
+        display: none !important; /* Esconde menu padrão */
     }
-    footer .btn-social {
+
+    /* Força containers a virarem coluna */
+    .flex, 
+    section.topo-do-site .flex, 
+    section.sobre .flex, 
+    .box-especialidades, 
+    .box-projetos {
         flex-direction: column !important;
+        text-align: center !important;
+        gap: 30px !important;
+    }
+
+    /* Ajuste de textos e larguras */
+    section.topo-do-site h1 {
+        font-size: 28px !important;
+    }
+
+    .topo-do-site .txt-topo-site p,
+    .sobre .txt-sobre p {
+        font-size: 1rem !important;
+        max-width: 100% !important;
+    }
+
+    /* Ajuste das Imagens (Topo e Sobre) */
+    .img-topo-site img, 
+    section.sobre img {
+        max-width: 90% !important;
+        margin: 0 auto !important;
+    }
+
+    /* Ajuste dos Cards (Especialidades e Projetos) */
+    .especialidade, .projeto-card {
+        width: 100% !important;
+        max-width: 100% !important;
+        min-width: unset !important;
+    }
+
+    /* Botões Sociais no Sobre */
+    .sobre .btn-social {
+        justify-content: center !important;
+        flex-wrap: wrap !important;
+        gap: 15px !important;
+    }
+
+    /* Rodapé Mobile */
+    footer {
+        padding: 40px 8% !important;
+    }
+
+    footer .btn-social {
+        flex-direction: row !important; /* Mantém ícones lado a lado se couber */
+        flex-wrap: wrap !important;
+    }
+
+    footer a[href^="mailto"], footer .email-contato a {
+        font-size: 18px !important; /* Diminui para não vazar da tela */
+        word-break: break-all !important; /* Quebra o e-mail se for muito longo */
     }
 }
