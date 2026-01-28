@@ -258,28 +258,82 @@ form input, form textarea { width: 100%; background-color: #242424; border: 0; p
 form textarea { height: 200px; resize: none; }
 form .btn-enviar input { background-color: blueviolet; font-weight: 700; cursor: pointer; width: 150px; align-self: center; }
 
-/* RODAPE */
+/* --- RESET TOTAL DO RODAPÉ (FORÇADO) --- */
 footer {
-    background-color: #0f0f0f;
-    padding: 40px 4%;
-    text-align: center;
-    border-top: 2px solid #1c1d1c;
+    background-color: #0f0f0f !important;
+    padding: 40px 4% !important;
+    text-align: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 20px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    margin-top: 50px !important;
 }
 
-footer .btn-social { display: flex; justify-content: center; gap: 15px; margin-bottom: 20px; }
-footer .email-contato a { color: #cb47ffe1 !important; font-size: 25px; text-decoration: none; font-weight: 700; }
+/* Força a imagem a encolher, não importa a classe */
+footer img {
+    width: 180px !important;
+    height: auto !important;
+    max-width: 180px !important;
+    display: block !important;
+    margin: 0 auto !important;
+}
 
-/* MEDIA QUERIES - CELULAR */
+/* Força os botões a ficarem no centro */
+footer .btn-social, footer div[class*="social"] {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 15px !important;
+    width: 100% !important;
+    position: static !important;
+    margin: 10px 0 !important;
+}
+
+/* Estilo dos botões */
+footer button {
+    background-color: #8e44ad !important;
+    color: #fff !important;
+    border: none !important;
+    padding: 10px 20px !important;
+    border-radius: 50px !important;
+    cursor: pointer !important;
+    font-size: 16px !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+}
+
+/* Força o e-mail a ficar roxo e centralizado */
+footer a[href^="mailto"], footer .email-contato a {
+    color: #cb47ffe1 !important;
+    text-decoration: none !important;
+    font-size: 24px !important;
+    font-weight: 700 !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin-top: 10px !important;
+}
+
+/* Linha final */
+footer .line-footer {
+    border-top: 1px solid #333 !important;
+    width: 100% !important;
+    padding-top: 20px !important;
+    color: #9114b8 !important;
+}
+
+/* --- AJUSTE CELULAR --- */
 @media screen and (max-width: 1020px) {
-    .menu-desktop, .btn-contato { display: none; }
-    
-    .topo-do-site .flex, .sobre .flex, .box-especialidades, .box-projetos {
-        flex-direction: column;
-        text-align: center;
-        gap: 40px;
+    footer a[href^="mailto"] {
+        font-size: 18px !important;
     }
-
-    .topo-do-site h1 { font-size: 30px; }
-    .img-topo-site img { max-width: 100%; }
-    .sobre .btn-social { justify-content: center; }
+    footer .btn-social {
+        flex-direction: column !important;
+    }
 }
