@@ -222,17 +222,22 @@ section.especialidades {
     gap: 30px;
     justify-content: center;
     margin-top: 40px;
+    flex-wrap: wrap; /* Permite quebrar linha apenas se não couber */
 }
 
 .especialidade {
-    background-color: #2c2d2c;
+    background-color: #111; /* Fundo levemente mais claro que o preto total */
+    border: 1px solid #333;
     border-radius: 15px;
     padding: 40px 20px;
     text-align: center;
     transition: 0.3s;
-    flex: 1;
-    max-width: 400px;
+    flex: 1; 
+    max-width: 350px;
+    min-width: 280px; /* Garante que não fiquem muito finas */
 }
+
+
 
 .especialidade img {
     width: 150px;
@@ -285,6 +290,32 @@ section.sobre {
 }
 
 /* PARTE DOS PROJETOS COM MAIS VIDA */
+/* Melhora a visibilidade dos textos dentro dos cards de Projetos e Especialidades */
+.projeto-card h3, .especialidade h3 {
+    color: #fff; /* Título branco */
+    margin-bottom: 15px;
+}
+
+.projeto-card p, .especialidade p {
+    color: #f0f0f0; /* Cinza bem claro, quase branco, para leitura confortável */
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Ajuste específico para o link "Ver no GitHub" */
+.projeto-card a {
+    color: #cb47ffe1 !important; /* Roxo vibrante */
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.projeto-card a:hover {
+    text-decoration: underline;
+    color: #fff !important;
+}
+
 section.projetos {
     padding: 80px 4%;
 }
