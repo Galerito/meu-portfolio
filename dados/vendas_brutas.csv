@@ -1,0 +1,501 @@
+id_pedido,data_pedido,cliente_id,produto_categoria,valor_venda,pagamento,status
+1,2023-11-19,123,Casa,49.68,Pix,Cancelado
+2,2023-02-25,144,Eletrônicos,421.85,Boleto,Concluído
+3,2023-12-13,187,Eletrônicos,410.85,Boleto,Concluído
+4,2023-09-07,200,Casa,150.0,Cartão de Crédito,Cancelado
+5,2023-12-22,148,Moda,147.3,Cartão de Crédito,Cancelado
+6,2023-06-25,145,Alimentos,357.22,Cartão de Crédito,Cancelado
+7,2023-02-10,193,Alimentos,322.83,Boleto,Concluído
+8,2023-09-06,126,Alimentos,399.91,Boleto,Cancelado
+9,2023-08-31,182,Casa,105.63,Boleto,Concluído
+10,2023-02-13,178,Casa,109.67,Cartão de Crédito,Concluído
+11,2023-04-10,116,Eletrônicos,26.11,Pix,Concluído
+12,2023-04-21,188,Alimentos,78.17,Cartão de Crédito,Concluído
+13,2023-03-22,120,Moda,322.57,Boleto,Concluído
+14,2023-03-07,198,Casa,104.73,Cartão de Crédito,Concluído
+15,2023-08-03,154,Casa,464.59,Pix,Concluído
+16,2023-10-13,163,Moda,28.77,Cartão de Crédito,Concluído
+17,2023-01-01,191,Casa,96.61,Pix,Concluído
+18,2023-11-23,142,Eletrônicos,353.94,Boleto,Concluído
+19,2023-12-15,129,Alimentos,140.28,Pix,Concluído
+20,2023-12-16,105,Casa,314.1,Cartão de Crédito,Concluído
+21,2023-09-14,121,Casa,179.87,Pix,Concluído
+22,2023-09-23,121,Alimentos,397.53,Cartão de Crédito,Concluído
+23,2023-03-23,134,Alimentos,375.26,Pix,Concluído
+24,2023-05-28,136,Casa,499.4,Cartão de Crédito,Concluído
+25,2023-05-25,198,Alimentos,147.36,Boleto,Cancelado
+26,2023-04-21,116,Casa,159.41,Cartão de Crédito,Concluído
+27,2023-12-15,131,Casa,233.67,Cartão de Crédito,Concluído
+28,2023-06-10,126,Moda,450.07,Pix,Concluído
+29,2023-01-30,179,Alimentos,,Pix,Cancelado
+30,2023-11-11,108,Moda,41.1,Boleto,Cancelado
+31,2023-07-02,175,Eletrônicos,175.64,Boleto,Concluído
+32,2023-02-19,138,Casa,420.97,Pix,Concluído
+33,2023-03-10,135,Moda,335.79,Pix,Concluído
+34,2023-01-13,129,Alimentos,70.63,Cartão de Crédito,Concluído
+35,2023-12-14,147,Casa,284.38,Cartão de Crédito,Cancelado
+36,2023-08-23,161,Casa,439.19,Cartão de Crédito,Cancelado
+37,2023-09-20,142,Casa,291.3,Pix,Cancelado
+38,2023-05-01,191,Alimentos,32.07,Boleto,Concluído
+39,2023-10-11,167,Alimentos,423.78,Boleto,Concluído
+40,2023-05-05,189,Eletrônicos,383.6,Cartão de Crédito,Concluído
+41,2023-01-27,173,Casa,,Cartão de Crédito,Concluído
+42,2023-03-17,103,Alimentos,87.54,Pix,Cancelado
+43,2023-01-07,157,Alimentos,319.66,Pix,Concluído
+44,2023-08-26,145,Alimentos,162.06,Cartão de Crédito,Cancelado
+45,2023-05-04,105,Alimentos,339.34,Cartão de Crédito,Cancelado
+46,2023-10-24,186,Moda,154.86,Boleto,Cancelado
+47,2023-11-07,115,Alimentos,136.47,Cartão de Crédito,Concluído
+48,2023-05-05,102,Eletrônicos,362.61,Pix,Concluído
+49,2023-11-23,114,Eletrônicos,469.53,Boleto,Cancelado
+50,2023-07-29,133,Casa,306.76,Boleto,Concluído
+51,2023-05-09,186,Casa,373.46,Pix,Concluído
+52,2023-03-17,151,Casa,444.39,Boleto,Cancelado
+53,2023-04-07,151,Casa,104.21,Pix,Cancelado
+54,2023-11-17,179,Casa,339.91,Boleto,Concluído
+55,2023-02-26,142,Alimentos,358.23,Cartão de Crédito,Cancelado
+56,2023-09-24,138,Eletrônicos,373.11,Pix,Concluído
+57,2023-09-27,150,Eletrônicos,458.57,Pix,Concluído
+58,2023-06-24,115,Casa,175.07,Pix,Concluído
+59,2023-10-16,103,Casa,454.62,Pix,Concluído
+60,2023-02-12,104,Casa,204.94,Boleto,Concluído
+61,2023-03-25,170,Casa,307.89,Cartão de Crédito,Cancelado
+62,2023-01-05,172,Eletrônicos,365.59,Boleto,Concluído
+63,2023-12-22,161,Alimentos,96.52,Cartão de Crédito,Concluído
+64,2023-02-18,175,Eletrônicos,192.57,Boleto,Concluído
+65,2023-02-22,143,Moda,139.02,Cartão de Crédito,Concluído
+66,2023-03-15,123,Moda,478.12,Boleto,Cancelado
+67,2023-09-26,110,Casa,266.03,Boleto,Concluído
+68,2023-10-24,140,Alimentos,,Boleto,Cancelado
+69,2023-12-01,129,Moda,,Cartão de Crédito,Cancelado
+70,2023-01-24,150,Eletrônicos,334.92,Boleto,Cancelado
+71,2023-02-28,138,Casa,95.24,Pix,Concluído
+72,2023-03-11,114,Moda,267.98,Pix,Concluído
+73,2023-05-09,142,Eletrônicos,291.92,Pix,Concluído
+74,2023-11-19,142,Casa,152.95,Pix,Cancelado
+75,2023-12-05,180,Eletrônicos,266.78,Boleto,Concluído
+76,2023-05-21,162,Alimentos,203.54,Boleto,Concluído
+77,2023-04-04,178,Eletrônicos,436.23,Boleto,Concluído
+78,2023-12-09,200,Eletrônicos,121.4,Boleto,Concluído
+79,2023-01-02,173,Moda,249.66,Pix,Concluído
+80,2023-11-04,185,Moda,108.77,Pix,Concluído
+81,2023-03-01,165,Casa,314.14,Pix,Concluído
+82,2023-02-09,119,Eletrônicos,415.93,Pix,Cancelado
+83,2023-09-02,105,Eletrônicos,246.86,Cartão de Crédito,Concluído
+84,2023-04-10,150,Casa,314.71,Boleto,Cancelado
+85,2023-08-10,159,Alimentos,229.65,Cartão de Crédito,Concluído
+86,2023-03-13,195,Casa,148.61,Pix,Concluído
+87,2023-10-16,153,Moda,379.98,Pix,Concluído
+88,2023-03-03,124,Moda,457.34,Cartão de Crédito,Concluído
+89,2023-12-09,104,Moda,475.57,Cartão de Crédito,Cancelado
+90,2023-04-25,142,Moda,318.16,Pix,Concluído
+91,2023-10-20,199,Moda,298.45,Boleto,Concluído
+92,2023-07-26,136,Moda,493.24,Boleto,Concluído
+93,2023-09-15,191,Moda,185.98,Pix,Concluído
+94,2023-04-12,186,Eletrônicos,314.44,Pix,Concluído
+95,2023-08-10,115,Eletrônicos,388.07,Boleto,Concluído
+96,2023-10-25,167,Eletrônicos,198.02,Boleto,Concluído
+97,2023-01-07,127,Alimentos,193.18,Boleto,Concluído
+98,2023-07-09,198,Eletrônicos,161.4,Cartão de Crédito,Concluído
+99,2023-07-31,200,Eletrônicos,188.85,Boleto,Concluído
+100,2023-07-29,156,Alimentos,99.27,Cartão de Crédito,Cancelado
+101,2023-02-07,186,Moda,159.3,Cartão de Crédito,Concluído
+102,2023-05-02,126,Alimentos,367.96,Cartão de Crédito,Concluído
+103,2023-09-25,143,Eletrônicos,222.89,Cartão de Crédito,Concluído
+104,2023-09-05,200,Casa,80.17,Pix,Concluído
+105,2023-12-13,183,Alimentos,182.3,Pix,Cancelado
+106,2023-04-27,118,Eletrônicos,89.45,Cartão de Crédito,Cancelado
+107,2023-07-28,106,Casa,309.9,Boleto,Concluído
+108,2023-01-02,134,Casa,434.43,Boleto,Concluído
+109,2023-02-13,179,Eletrônicos,275.0,Cartão de Crédito,Concluído
+110,2023-11-24,107,Moda,98.04,Boleto,Cancelado
+111,2023-06-10,163,Eletrônicos,42.74,Cartão de Crédito,Concluído
+112,2023-03-08,163,Casa,165.79,Boleto,Concluído
+113,2023-01-29,122,Eletrônicos,396.28,Pix,Concluído
+114,2023-01-18,177,Casa,373.71,Cartão de Crédito,Cancelado
+115,2023-12-06,103,Moda,136.43,Boleto,Concluído
+116,2023-08-30,195,Casa,321.59,Boleto,Concluído
+117,2023-11-17,170,Moda,63.08,Cartão de Crédito,Concluído
+118,2023-05-25,114,Alimentos,468.58,Cartão de Crédito,Concluído
+119,2023-08-03,170,Eletrônicos,465.59,Cartão de Crédito,Concluído
+120,2023-04-07,143,Casa,248.31,Pix,Cancelado
+121,2023-10-10,104,Eletrônicos,140.39,Cartão de Crédito,Cancelado
+122,2023-09-25,150,Moda,81.52,Boleto,Cancelado
+123,2023-07-13,130,Alimentos,179.56,Boleto,Concluído
+124,2023-10-24,144,Eletrônicos,93.16,Cartão de Crédito,Cancelado
+125,2023-09-30,153,Eletrônicos,126.37,Boleto,Concluído
+126,2023-12-28,179,Moda,408.64,Cartão de Crédito,Concluído
+127,2023-03-30,195,Casa,57.52,Cartão de Crédito,Concluído
+128,2023-06-27,193,Moda,426.59,Pix,Concluído
+129,2023-09-08,178,Moda,53.02,Cartão de Crédito,Concluído
+130,2023-07-13,134,Alimentos,259.66,Pix,Concluído
+131,2023-02-25,171,Eletrônicos,351.53,Boleto,Concluído
+132,2023-11-17,112,Moda,214.93,Pix,Cancelado
+133,2023-02-15,163,Moda,,Pix,Concluído
+134,2023-12-23,194,Alimentos,107.11,Cartão de Crédito,Concluído
+135,2023-09-30,199,Casa,249.65,Boleto,Concluído
+136,2023-03-29,147,Casa,41.53,Cartão de Crédito,Concluído
+137,2023-07-11,110,Moda,419.63,Boleto,Cancelado
+138,2023-09-06,115,Eletrônicos,333.41,Cartão de Crédito,Concluído
+139,2023-04-06,154,Casa,437.25,Cartão de Crédito,Concluído
+140,2023-12-29,139,Casa,134.51,Boleto,Cancelado
+141,2023-04-25,124,Alimentos,290.24,Pix,Concluído
+142,2023-02-11,181,Moda,456.88,Cartão de Crédito,Concluído
+143,2023-03-21,143,Casa,376.59,Boleto,Concluído
+144,2023-09-03,133,Casa,209.72,Cartão de Crédito,Cancelado
+145,2023-05-19,153,Eletrônicos,,Pix,Concluído
+146,2024-01-01,152,Casa,475.0,Boleto,Cancelado
+147,2023-09-22,111,Alimentos,254.54,Pix,Cancelado
+148,2023-05-25,107,Eletrônicos,77.41,Cartão de Crédito,Concluído
+149,2023-02-02,151,Casa,484.61,Cartão de Crédito,Concluído
+150,2023-08-18,169,Casa,361.37,Cartão de Crédito,Concluído
+151,2023-03-01,115,Casa,300.5,Pix,Concluído
+152,2023-08-29,136,Moda,378.25,Boleto,Cancelado
+153,2023-05-27,154,Alimentos,274.41,Pix,Concluído
+154,2023-08-20,140,Moda,332.89,Boleto,Cancelado
+155,2023-03-07,136,Casa,358.15,Boleto,Cancelado
+156,2023-01-22,182,Casa,140.97,Boleto,Cancelado
+157,2023-10-23,121,Casa,111.58,Pix,Cancelado
+158,2023-07-29,141,Moda,79.15,Pix,Concluído
+159,2023-06-18,165,Moda,355.87,Cartão de Crédito,Cancelado
+160,2023-05-04,110,Casa,429.18,Pix,Concluído
+161,2023-08-26,153,Alimentos,181.47,Cartão de Crédito,Cancelado
+162,2023-10-11,163,Alimentos,498.24,Pix,Concluído
+163,2023-06-23,169,Casa,299.3,Boleto,Concluído
+164,2023-07-30,175,Moda,54.23,Pix,Concluído
+165,2023-08-10,158,Casa,197.79,Cartão de Crédito,Concluído
+166,2023-01-15,134,Casa,211.09,Boleto,Concluído
+167,2023-04-29,195,Casa,41.03,Pix,Concluído
+168,2023-12-22,160,Alimentos,125.85,Cartão de Crédito,Cancelado
+169,2023-05-24,182,Moda,106.4,Pix,Concluído
+170,2023-02-15,190,Moda,395.27,Cartão de Crédito,Cancelado
+171,2023-02-25,133,Eletrônicos,139.37,Boleto,Concluído
+172,2023-09-19,181,Moda,58.54,Cartão de Crédito,Cancelado
+173,2023-04-16,126,Moda,487.78,Cartão de Crédito,Cancelado
+174,2023-07-10,186,Casa,271.33,Cartão de Crédito,Concluído
+175,2023-01-31,108,Alimentos,119.34,Boleto,Cancelado
+176,2023-05-28,182,Moda,260.94,Pix,Concluído
+177,2023-04-18,110,Alimentos,42.89,Cartão de Crédito,Concluído
+178,2023-08-23,189,Eletrônicos,421.28,Pix,Concluído
+179,2023-09-09,134,Casa,496.26,Cartão de Crédito,Concluído
+180,2023-06-10,154,Alimentos,25.67,Cartão de Crédito,Concluído
+181,2023-04-30,200,Alimentos,271.4,Boleto,Concluído
+182,2023-01-01,168,Moda,347.98,Cartão de Crédito,Concluído
+183,2023-02-10,182,Moda,408.76,Cartão de Crédito,Cancelado
+184,2023-02-19,134,Eletrônicos,,Pix,Concluído
+185,2023-08-19,176,Moda,351.56,Cartão de Crédito,Concluído
+186,2023-02-19,132,Casa,56.47,Pix,Concluído
+187,2023-12-08,188,Eletrônicos,248.84,Pix,Cancelado
+188,2023-12-19,124,Moda,131.57,Boleto,Cancelado
+189,2023-12-10,100,Moda,288.68,Cartão de Crédito,Concluído
+190,2023-01-05,114,Eletrônicos,31.1,Boleto,Concluído
+191,2023-09-10,145,Moda,365.9,Boleto,Concluído
+192,2023-12-19,100,Eletrônicos,253.14,Pix,Concluído
+193,2023-08-26,190,Alimentos,412.61,Cartão de Crédito,Concluído
+194,2023-07-11,164,Moda,282.37,Boleto,Concluído
+195,2023-08-13,192,Alimentos,491.66,Pix,Concluído
+196,2023-09-28,200,Eletrônicos,80.29,Pix,Concluído
+197,2023-07-16,155,Casa,105.59,Pix,Cancelado
+198,2023-10-21,118,Moda,110.23,Pix,Cancelado
+199,2023-12-08,168,Casa,313.98,Boleto,Concluído
+200,2023-02-02,133,Casa,330.88,Pix,Concluído
+201,2023-12-06,106,Casa,469.83,Boleto,Concluído
+202,2023-10-22,105,Casa,296.4,Pix,Concluído
+203,2023-02-16,197,Moda,367.41,Boleto,Concluído
+204,2023-11-04,166,Eletrônicos,472.57,Boleto,Cancelado
+205,2023-10-28,183,Eletrônicos,129.8,Boleto,Concluído
+206,2023-01-18,147,Alimentos,386.09,Cartão de Crédito,Concluído
+207,2023-09-30,113,Moda,188.75,Boleto,Concluído
+208,2023-08-15,176,Moda,469.27,Boleto,Concluído
+209,2023-06-06,153,Casa,499.84,Cartão de Crédito,Cancelado
+210,2023-10-12,195,Casa,74.17,Boleto,Cancelado
+211,2023-05-31,182,Casa,369.8,Pix,Concluído
+212,2023-11-15,116,Eletrônicos,20.69,Boleto,Concluído
+213,2023-03-13,118,Alimentos,26.1,Pix,Cancelado
+214,2023-12-27,179,Casa,335.62,Boleto,Concluído
+215,2023-04-12,105,Eletrônicos,45.25,Boleto,Cancelado
+216,2023-08-15,130,Alimentos,396.72,Boleto,Concluído
+217,2023-04-14,125,Eletrônicos,60.54,Cartão de Crédito,Concluído
+218,2023-04-08,188,Moda,281.07,Boleto,Cancelado
+219,2023-07-19,164,Alimentos,280.87,Cartão de Crédito,Concluído
+220,2023-06-23,131,Alimentos,66.66,Pix,Concluído
+221,2023-11-17,195,Moda,407.72,Cartão de Crédito,Concluído
+222,2023-10-02,129,Casa,373.92,Boleto,Concluído
+223,2023-11-22,199,Casa,189.76,Cartão de Crédito,Concluído
+224,2023-03-17,189,Casa,148.19,Pix,Concluído
+225,2023-12-18,191,Moda,336.5,Boleto,Cancelado
+226,2023-04-08,110,Alimentos,172.88,Cartão de Crédito,Cancelado
+227,2023-08-30,198,Eletrônicos,322.11,Boleto,Cancelado
+228,2023-01-05,197,Casa,67.78,Cartão de Crédito,Concluído
+229,2023-05-14,143,Casa,91.02,Cartão de Crédito,Concluído
+230,2023-09-25,145,Eletrônicos,100.89,Boleto,Concluído
+231,2023-10-06,141,Alimentos,159.31,Pix,Concluído
+232,2023-01-29,165,Casa,207.76,Boleto,Concluído
+233,2023-09-12,163,Eletrônicos,439.8,Cartão de Crédito,Cancelado
+234,2023-11-04,158,Moda,336.93,Cartão de Crédito,Cancelado
+235,2023-05-21,111,Eletrônicos,,Cartão de Crédito,Concluído
+236,2023-03-27,100,Eletrônicos,495.91,Cartão de Crédito,Cancelado
+237,2023-06-26,177,Eletrônicos,401.67,Pix,Concluído
+238,2023-06-10,197,Casa,25.81,Pix,Concluído
+239,2023-02-01,113,Eletrônicos,197.98,Cartão de Crédito,Cancelado
+240,2023-07-22,143,Casa,262.19,Pix,Concluído
+241,2023-12-10,152,Moda,54.72,Pix,Cancelado
+242,2023-09-30,103,Alimentos,174.76,Boleto,Concluído
+243,2023-05-21,143,Casa,499.94,Boleto,Concluído
+244,2023-01-30,152,Alimentos,386.94,Boleto,Concluído
+245,2023-05-26,104,Moda,180.59,Cartão de Crédito,Cancelado
+246,2023-06-30,111,Moda,,Boleto,Concluído
+247,2023-07-21,126,Alimentos,495.95,Boleto,Concluído
+248,2023-11-03,106,Moda,68.05,Cartão de Crédito,Cancelado
+249,2023-12-27,145,Eletrônicos,372.12,Pix,Concluído
+250,2023-12-12,161,Moda,167.32,Pix,Concluído
+251,2023-05-12,189,Eletrônicos,440.28,Pix,Concluído
+252,2023-04-19,192,Moda,39.98,Pix,Cancelado
+253,2023-06-11,176,Casa,487.4,Cartão de Crédito,Concluído
+254,2023-09-02,145,Alimentos,405.22,Pix,Concluído
+255,2023-06-07,108,Eletrônicos,341.27,Pix,Concluído
+256,2023-11-07,136,Eletrônicos,341.75,Boleto,Concluído
+257,2023-01-17,140,Alimentos,327.44,Pix,Concluído
+258,2023-12-07,118,Casa,316.67,Boleto,Cancelado
+259,2023-03-20,133,Casa,162.58,Pix,Concluído
+260,2023-12-11,118,Moda,283.6,Cartão de Crédito,Concluído
+261,2023-05-04,176,Eletrônicos,48.03,Pix,Concluído
+262,2023-11-29,103,Alimentos,482.95,Boleto,Concluído
+263,2023-12-19,141,Casa,147.78,Cartão de Crédito,Concluído
+264,2023-07-19,200,Alimentos,311.32,Boleto,Concluído
+265,2023-10-26,140,Moda,308.49,Cartão de Crédito,Concluído
+266,2023-08-24,142,Eletrônicos,54.38,Boleto,Concluído
+267,2023-07-01,198,Eletrônicos,200.88,Boleto,Concluído
+268,2023-11-28,106,Moda,,Cartão de Crédito,Concluído
+269,2023-05-31,161,Moda,370.37,Pix,Concluído
+270,2023-06-18,105,Moda,297.85,Boleto,Concluído
+271,2023-05-14,200,Casa,277.17,Boleto,Concluído
+272,2023-04-06,134,Alimentos,176.24,Boleto,Cancelado
+273,2023-03-10,168,Casa,219.82,Cartão de Crédito,Concluído
+274,2023-08-04,141,Casa,201.29,Pix,Cancelado
+275,2023-07-28,159,Alimentos,49.6,Cartão de Crédito,Concluído
+276,2023-10-29,136,Eletrônicos,240.28,Pix,Concluído
+277,2023-10-15,126,Casa,65.88,Boleto,Concluído
+278,2023-05-12,102,Eletrônicos,423.11,Cartão de Crédito,Concluído
+279,2023-09-11,160,Casa,356.39,Boleto,Concluído
+280,2023-12-21,113,Alimentos,420.2,Pix,Concluído
+281,2023-06-14,118,Casa,169.99,Pix,Concluído
+282,2023-11-09,121,Alimentos,27.58,Boleto,Concluído
+283,2023-12-10,161,Alimentos,168.08,Pix,Concluído
+284,2023-05-13,140,Moda,268.23,Cartão de Crédito,Concluído
+285,2023-06-09,149,Casa,403.72,Pix,Concluído
+286,2023-01-13,195,Alimentos,186.46,Cartão de Crédito,Concluído
+287,2023-03-29,139,Moda,494.23,Cartão de Crédito,Concluído
+288,2023-02-15,134,Alimentos,356.06,Boleto,Concluído
+289,2023-06-29,170,Alimentos,424.79,Cartão de Crédito,Concluído
+290,2023-05-19,143,Alimentos,278.12,Pix,Cancelado
+291,2023-10-05,160,Alimentos,478.85,Pix,Concluído
+292,2023-07-14,153,Moda,435.91,Cartão de Crédito,Concluído
+293,2023-08-17,102,Moda,159.2,Cartão de Crédito,Concluído
+294,2023-11-01,148,Casa,128.61,Boleto,Concluído
+295,2023-08-03,127,Casa,377.07,Pix,Concluído
+296,2023-11-10,148,Casa,84.65,Boleto,Cancelado
+297,2023-05-10,197,Eletrônicos,436.09,Pix,Cancelado
+298,2023-06-30,188,Alimentos,39.76,Boleto,Concluído
+299,2023-05-08,128,Alimentos,420.37,Boleto,Concluído
+300,2023-03-28,186,Casa,63.31,Boleto,Concluído
+301,2023-02-06,193,Eletrônicos,188.95,Pix,Concluído
+302,2023-04-08,182,Moda,496.66,Cartão de Crédito,Concluído
+303,2023-03-28,131,Alimentos,353.8,Boleto,Concluído
+304,2023-12-07,150,Casa,234.84,Cartão de Crédito,Concluído
+305,2023-07-09,117,Casa,376.91,Cartão de Crédito,Concluído
+306,2023-08-17,125,Alimentos,120.55,Pix,Concluído
+307,2023-06-22,114,Alimentos,133.81,Cartão de Crédito,Concluído
+308,2023-08-16,171,Casa,166.09,Cartão de Crédito,Concluído
+309,2023-12-21,200,Eletrônicos,114.94,Cartão de Crédito,Concluído
+310,2023-12-11,175,Casa,181.47,Cartão de Crédito,Concluído
+311,2023-01-06,148,Casa,443.36,Pix,Cancelado
+312,2023-11-14,179,Casa,,Pix,Concluído
+313,2023-03-05,144,Eletrônicos,261.86,Cartão de Crédito,Cancelado
+314,2023-07-28,158,Moda,345.77,Boleto,Concluído
+315,2023-10-20,196,Alimentos,481.2,Cartão de Crédito,Concluído
+316,2023-08-01,193,Moda,413.9,Pix,Concluído
+317,2023-08-09,150,Casa,357.06,Cartão de Crédito,Concluído
+318,2023-02-18,136,Eletrônicos,189.49,Cartão de Crédito,Cancelado
+319,2023-09-30,150,Alimentos,107.4,Cartão de Crédito,Concluído
+320,2023-10-15,199,Casa,34.56,Cartão de Crédito,Concluído
+321,2023-07-21,142,Moda,499.94,Boleto,Cancelado
+322,2023-12-20,179,Casa,251.69,Boleto,Concluído
+323,2023-07-31,108,Alimentos,,Boleto,Concluído
+324,2024-01-01,141,Eletrônicos,162.81,Boleto,Concluído
+325,2023-03-31,153,Alimentos,418.07,Cartão de Crédito,Concluído
+326,2023-12-03,164,Eletrônicos,190.32,Pix,Concluído
+327,2023-11-13,152,Alimentos,216.27,Pix,Concluído
+328,2023-05-25,110,Casa,202.83,Cartão de Crédito,Concluído
+329,2023-12-05,195,Casa,357.7,Pix,Concluído
+330,2023-02-02,124,Casa,246.68,Pix,Concluído
+331,2023-09-02,121,Moda,358.67,Boleto,Concluído
+332,2023-08-04,104,Casa,384.46,Cartão de Crédito,Concluído
+333,2023-04-25,133,Eletrônicos,185.64,Cartão de Crédito,Concluído
+334,2023-05-12,168,Moda,169.72,Pix,Concluído
+335,2023-11-24,133,Alimentos,458.19,Boleto,Concluído
+336,2023-12-24,189,Alimentos,60.05,Pix,Concluído
+337,2023-03-14,199,Alimentos,385.46,Pix,Cancelado
+338,2023-01-05,141,Casa,137.67,Cartão de Crédito,Concluído
+339,2023-12-22,162,Alimentos,221.53,Pix,Cancelado
+340,2023-11-05,198,Eletrônicos,100.31,Pix,Concluído
+341,2023-05-31,131,Alimentos,453.04,Pix,Concluído
+342,2023-11-22,169,Moda,288.98,Cartão de Crédito,Concluído
+343,2023-05-24,199,Casa,206.45,Pix,Concluído
+344,2023-10-24,150,Moda,376.16,Boleto,Concluído
+345,2023-09-29,100,Moda,86.87,Boleto,Concluído
+346,2023-09-09,130,Eletrônicos,331.23,Boleto,Concluído
+347,2023-05-05,176,Casa,340.83,Cartão de Crédito,Cancelado
+348,2023-09-25,104,Alimentos,388.21,Pix,Concluído
+349,2023-04-01,191,Moda,108.29,Pix,Concluído
+350,2023-05-08,147,Alimentos,103.24,Pix,Concluído
+351,2023-11-06,107,Casa,358.93,Boleto,Concluído
+352,2023-10-22,156,Eletrônicos,,Pix,Concluído
+353,2023-07-03,138,Eletrônicos,109.59,Cartão de Crédito,Concluído
+354,2023-11-07,165,Eletrônicos,69.0,Pix,Concluído
+355,2023-03-26,101,Moda,237.1,Boleto,Cancelado
+356,2023-04-12,162,Alimentos,,Boleto,Cancelado
+357,2023-02-22,116,Alimentos,446.56,Boleto,Cancelado
+358,2023-07-13,165,Alimentos,272.66,Boleto,Concluído
+359,2023-09-06,142,Casa,390.48,Cartão de Crédito,Concluído
+360,2023-09-08,155,Alimentos,296.58,Cartão de Crédito,Concluído
+361,2023-01-29,162,Moda,301.92,Pix,Concluído
+362,2023-04-27,198,Moda,84.17,Boleto,Cancelado
+363,2023-05-14,143,Casa,220.14,Cartão de Crédito,Concluído
+364,2023-05-06,110,Casa,373.82,Boleto,Concluído
+365,2023-06-11,137,Casa,165.96,Pix,Concluído
+366,2023-02-09,104,Moda,208.49,Cartão de Crédito,Cancelado
+367,2023-03-30,194,Eletrônicos,83.69,Boleto,Cancelado
+368,2023-08-31,110,Casa,317.81,Boleto,Cancelado
+369,2023-04-04,113,Moda,169.31,Pix,Concluído
+370,2023-07-08,170,Alimentos,78.81,Cartão de Crédito,Concluído
+371,2023-11-05,101,Alimentos,104.97,Cartão de Crédito,Cancelado
+372,2023-02-20,100,Eletrônicos,210.57,Pix,Concluído
+373,2023-07-10,120,Casa,440.85,Pix,Cancelado
+374,2023-10-10,132,Casa,36.34,Boleto,Concluído
+375,2023-03-15,118,Moda,202.34,Cartão de Crédito,Concluído
+376,2023-05-27,153,Casa,415.86,Cartão de Crédito,Cancelado
+377,2023-10-07,137,Eletrônicos,186.95,Cartão de Crédito,Concluído
+378,2023-02-06,158,Eletrônicos,220.01,Cartão de Crédito,Cancelado
+379,2023-01-10,128,Moda,,Pix,Concluído
+380,2023-11-01,169,Eletrônicos,131.68,Cartão de Crédito,Concluído
+381,2023-06-06,186,Eletrônicos,209.13,Cartão de Crédito,Cancelado
+382,2023-02-17,117,Eletrônicos,258.03,Pix,Concluído
+383,2023-05-09,197,Moda,184.07,Pix,Concluído
+384,2023-05-25,154,Alimentos,142.52,Cartão de Crédito,Concluído
+385,2023-06-20,128,Moda,61.09,Boleto,Concluído
+386,2023-09-03,144,Casa,91.19,Pix,Concluído
+387,2023-08-03,147,Alimentos,410.8,Pix,Concluído
+388,2023-10-22,100,Casa,105.01,Cartão de Crédito,Concluído
+389,2023-12-08,194,Moda,338.74,Boleto,Concluído
+390,2023-12-19,117,Moda,201.82,Cartão de Crédito,Concluído
+391,2023-03-03,111,Alimentos,283.84,Boleto,Concluído
+392,2023-12-10,179,Alimentos,483.65,Boleto,Concluído
+393,2023-07-07,153,Alimentos,24.52,Cartão de Crédito,Concluído
+394,2023-11-12,190,Casa,44.53,Pix,Cancelado
+395,2023-03-01,162,Eletrônicos,404.18,Pix,Concluído
+396,2023-06-06,126,Casa,53.24,Boleto,Concluído
+397,2023-12-13,153,Alimentos,274.61,Boleto,Concluído
+398,2023-04-01,119,Eletrônicos,310.93,Pix,Cancelado
+399,2023-03-23,172,Alimentos,268.07,Boleto,Concluído
+400,2023-01-03,187,Moda,133.72,Pix,Cancelado
+401,2023-11-05,161,Casa,354.9,Cartão de Crédito,Concluído
+402,2023-04-14,143,Moda,162.27,Cartão de Crédito,Cancelado
+403,2023-12-31,112,Casa,480.91,Cartão de Crédito,Concluído
+404,2023-10-16,119,Alimentos,351.39,Boleto,Cancelado
+405,2023-09-30,176,Casa,161.86,Boleto,Concluído
+406,2023-07-10,120,Casa,98.25,Boleto,Cancelado
+407,2023-08-23,101,Alimentos,117.08,Cartão de Crédito,Concluído
+408,2023-09-27,155,Eletrônicos,410.19,Pix,Cancelado
+409,2023-11-09,132,Casa,455.9,Boleto,Concluído
+410,2023-05-17,102,Casa,481.71,Cartão de Crédito,Cancelado
+411,2023-02-24,155,Casa,55.08,Boleto,Concluído
+412,2023-09-26,143,Alimentos,314.62,Boleto,Concluído
+413,2023-04-03,167,Casa,192.58,Cartão de Crédito,Concluído
+414,2023-04-16,168,Casa,303.27,Pix,Concluído
+415,2023-10-22,139,Casa,163.04,Cartão de Crédito,Cancelado
+416,2023-05-19,150,Eletrônicos,75.46,Pix,Concluído
+417,2023-12-10,164,Moda,311.12,Boleto,Concluído
+418,2023-09-14,103,Casa,230.38,Cartão de Crédito,Concluído
+419,2023-05-31,114,Alimentos,59.75,Cartão de Crédito,Concluído
+420,2023-10-14,138,Moda,251.1,Pix,Concluído
+421,2023-10-14,137,Eletrônicos,202.7,Boleto,Concluído
+422,2023-12-14,144,Casa,152.93,Cartão de Crédito,Cancelado
+423,2023-05-28,176,Eletrônicos,381.33,Cartão de Crédito,Cancelado
+424,2023-08-14,101,Eletrônicos,149.54,Pix,Concluído
+425,2023-08-11,186,Alimentos,,Boleto,Cancelado
+426,2023-10-06,134,Eletrônicos,206.0,Pix,Concluído
+427,2023-05-09,157,Casa,229.5,Boleto,Concluído
+428,2023-02-09,101,Casa,20.44,Boleto,Cancelado
+429,2023-03-28,113,Eletrônicos,318.79,Cartão de Crédito,Concluído
+430,2023-10-17,163,Eletrônicos,185.39,Pix,Concluído
+431,2023-10-20,116,Alimentos,160.35,Pix,Concluído
+432,2023-10-29,193,Casa,,Boleto,Cancelado
+433,2023-12-11,138,Moda,302.37,Boleto,Concluído
+434,2023-07-10,197,Alimentos,190.97,Boleto,Concluído
+435,2023-06-12,174,Alimentos,305.29,Pix,Concluído
+436,2023-11-28,139,Eletrônicos,44.4,Pix,Concluído
+437,2023-04-02,179,Eletrônicos,411.53,Boleto,Concluído
+438,2023-05-09,108,Casa,25.03,Cartão de Crédito,Concluído
+439,2023-11-22,100,Eletrônicos,123.72,Boleto,Concluído
+440,2023-03-08,184,Alimentos,402.22,Pix,Concluído
+441,2023-03-20,183,Alimentos,259.19,Cartão de Crédito,Cancelado
+442,2023-11-25,127,Eletrônicos,321.0,Cartão de Crédito,Concluído
+443,2023-03-28,116,Alimentos,164.27,Boleto,Cancelado
+444,2023-12-16,120,Moda,356.21,Pix,Concluído
+445,2023-08-29,126,Casa,381.55,Boleto,Cancelado
+446,2023-01-25,112,Casa,420.52,Cartão de Crédito,Concluído
+447,2023-08-08,172,Alimentos,122.77,Pix,Concluído
+448,2023-07-18,127,Eletrônicos,451.95,Cartão de Crédito,Concluído
+449,2023-12-13,124,Casa,32.86,Boleto,Concluído
+450,2023-03-11,189,Casa,121.84,Pix,Concluído
+451,2023-05-14,170,Casa,404.57,Cartão de Crédito,Concluído
+452,2023-09-22,146,Alimentos,,Boleto,Cancelado
+453,2023-12-05,127,Casa,49.82,Pix,Concluído
+454,2023-09-30,129,Moda,182.13,Cartão de Crédito,Concluído
+455,2023-08-11,185,Alimentos,399.1,Pix,Concluído
+456,2023-03-18,181,Alimentos,120.66,Pix,Concluído
+457,2023-01-02,119,Moda,37.12,Pix,Cancelado
+458,2023-04-17,141,Casa,110.99,Boleto,Cancelado
+459,2023-05-11,105,Moda,354.76,Pix,Concluído
+460,2023-12-18,124,Casa,198.32,Pix,Concluído
+461,2023-12-07,114,Moda,459.3,Boleto,Cancelado
+462,2023-04-22,158,Moda,,Cartão de Crédito,Cancelado
+463,2023-01-10,108,Casa,479.42,Boleto,Concluído
+464,2023-02-14,175,Moda,299.4,Cartão de Crédito,Concluído
+465,2023-07-18,115,Alimentos,235.22,Cartão de Crédito,Concluído
+466,2023-04-05,133,Casa,20.05,Boleto,Concluído
+467,2023-10-12,159,Alimentos,96.19,Pix,Cancelado
+468,2023-05-11,163,Eletrônicos,177.43,Cartão de Crédito,Cancelado
+469,2023-09-06,181,Eletrônicos,175.01,Cartão de Crédito,Concluído
+470,2023-09-30,116,Eletrônicos,286.98,Cartão de Crédito,Cancelado
+471,2023-03-27,131,Moda,310.88,Cartão de Crédito,Concluído
+472,2023-03-30,170,Eletrônicos,433.72,Cartão de Crédito,Concluído
+473,2023-09-16,152,Moda,243.94,Cartão de Crédito,Concluído
+474,2023-02-18,163,Alimentos,58.53,Pix,Cancelado
+475,2023-09-13,175,Alimentos,197.88,Cartão de Crédito,Concluído
+476,2023-05-24,111,Moda,230.59,Cartão de Crédito,Concluído
+477,2023-09-21,101,Moda,227.95,Boleto,Concluído
+478,2023-08-17,146,Eletrônicos,492.3,Cartão de Crédito,Concluído
+479,2023-08-06,178,Alimentos,481.89,Cartão de Crédito,Concluído
+480,2023-10-21,124,Moda,330.14,Boleto,Concluído
+481,2023-11-01,142,Alimentos,453.26,Cartão de Crédito,Cancelado
+482,2023-12-10,161,Eletrônicos,108.26,Boleto,Cancelado
+483,2023-10-04,185,Eletrônicos,151.3,Pix,Concluído
+484,2023-08-11,139,Alimentos,126.61,Boleto,Concluído
+485,2023-03-25,196,Casa,423.71,Boleto,Concluído
+486,2023-07-28,194,Moda,156.48,Boleto,Concluído
+487,2023-02-06,123,Alimentos,246.81,Boleto,Cancelado
+488,2023-04-11,190,Alimentos,342.02,Cartão de Crédito,Concluído
+489,2023-12-03,102,Eletrônicos,430.97,Boleto,Concluído
+490,2023-11-05,171,Alimentos,379.47,Pix,Concluído
+491,2023-03-20,136,Casa,285.04,Boleto,Concluído
+492,2023-09-06,102,Moda,284.68,Cartão de Crédito,Cancelado
+493,2023-05-23,121,Casa,,Pix,Concluído
+494,2023-07-12,185,Alimentos,69.52,Cartão de Crédito,Concluído
+495,2023-11-17,145,Alimentos,381.69,Cartão de Crédito,Cancelado
+496,2023-04-05,178,Moda,363.6,Boleto,Concluído
+497,2023-08-30,125,Casa,456.09,Cartão de Crédito,Cancelado
+498,2023-08-28,186,Casa,389.93,Pix,Concluído
+499,2023-01-11,153,Eletrônicos,453.29,Boleto,Concluído
+500,2023-10-27,155,Moda,137.76,Boleto,Concluído
